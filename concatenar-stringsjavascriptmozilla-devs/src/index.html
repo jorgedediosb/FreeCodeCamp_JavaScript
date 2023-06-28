@@ -1,0 +1,63 @@
+<!-- Ejercicio Strings 1 - Mozilla Devs -->
+<!-- Ya tienes la mitad de una cita famosa dentro de una variable llamada quoteStart; nos gustaría que:
+
+Busques la otra mitad de la cita y la añadas al ejemplo dentro de una variable llamada quoteEnd.
+Concatenar las dos cadenas para formar una sola que contenga la cita completa. Guarda el resultado dentro de una variable llamada finalQuote.
+Verás que en este punto se produce un error. ¿Puedes arreglar el problema con quoteStart, para que la cita completa se muestre correctamente?-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Strings: Task 1</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      p {
+        color: purple;
+        margin: 0.5em 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section class="preview"> <p>SyntaxError: Unexpected identifier 't'. Expected ';' after variable declaration.</p></section>
+
+    <textarea class="playable playable-js" style="height: 220px;">
+// Add your code here
+
+const quoteStart = 'Don't judge each day by the harvest you reap ';
+
+// Don't edit the code below here!
+
+section.innerHTML = ' ';
+const para1 = document.createElement('p');
+para1.textContent = finalQuote;
+
+section.appendChild(para1);
+    </textarea>
+
+    <div class="playable-buttons">
+      <input id="reset" type="button" value="Reset">
+    </div>
+    
+  <script class="editable">
+// Add your code here
+
+const quoteStart = 'Don't judge each day by the harvest you reap ';
+
+// Don't edit the code below here!
+
+section.innerHTML = ' ';
+const para1 = document.createElement('p');
+para1.textContent = finalQuote;
+
+section.appendChild(para1);
+    </script>
+  <script src="../playable.js"></script>
+
+</body>
+</html>

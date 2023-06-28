@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+p {
+  color: purple;
+  margin: 0.5em 0;
+}
+
+.playable {
+  font-family: monospace;
+  display: block;
+  margin-bottom: 10px;
+  background-color: #F4F7F8;
+  border: none;
+  border-left: 6px solid #558ABB;
+  color: #4D4E53;
+  width: 90%;
+  max-width: 700px;
+  padding: 10px 10px 0px;
+  font-size: 90%;
+}
